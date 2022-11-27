@@ -1,0 +1,27 @@
+{
+    "name": "laraveld/laraveld",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Romano Schoonheim",
+            "email": "romano@romanoschoonheim.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laraveld\\Laraveld\\": "src/"
+        }
+    },
+    "require": {
+        "spatie/laravel-package-tools": "^1.13"
+    },
+    "autoload-dev": {},
+    "require-dev": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraveld\\Laraveld\\LaraveldServiceProvider"
+            ]
+        }
+    }
+}
